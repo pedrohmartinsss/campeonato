@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    margin: 0%;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.grupo {
+    margin: 20px auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background: #007BFF;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 14px;
+}
+
+.sets {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #218838;
+}
+
+#reset {
+    background: #dc3545;
+}
+
+a {
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+}
+
+#listaJogos {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+#listaJogos li {
+    background: white;
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+    background: #007bff;
+    color: white;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    body {
+        margin: 0%;
+        padding: 5px;
+    }
+
+    h1,
+    h2 {
+        font-size: 18px;
+    }
+
+    table {
+        font-size: 11px;
+    }
+
+    table th,
+    table td {
+        padding: 4px;
+    }
+
+    .sets {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    form input,
+    form select,
+    form button {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    footer {
+        position: fixed;
+    }
+
+}
