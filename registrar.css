@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0%;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 15px;
+}
+
+h2,
+h3 {
+    text-align: center;
+}
+
+.grupo {
+    margin: 20px auto;
+    width: 80%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-size: 14px;
+}
+
+.sets {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background: #218838;
+}
+
+select {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+select:hover {
+    border-color: #007BFF;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+#reset {
+    background: #dc3545;
+}
+
+a {
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+}
+
+#listaJogos {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    list-style: none;
+}
+
+#listaJogos li {
+    background: white;
+    margin: 5px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+footer {
+    position: fixed;
+    font-size: 1.3rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #007bff;
+    /* azul */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 5px;
+    }
+
+    h1,
+    h2 {
+        font-size: 18px;
+    }
+
+    table {
+        font-size: 11px;
+    }
+
+    table th,
+    table td {
+        padding: 4px;
+    }
+
+    .sets {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    form input,
+    form select,
+    form button {
+        font-size: 12px;
+        padding: 6px;
+    }
+}

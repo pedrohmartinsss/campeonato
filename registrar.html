@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Registrar Jogo - 1º Campeonato Regional de Peteca de Belo Oriente</title>
+    <link rel="icon" href="tabela logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="registrar.css">
+</head>
+
+<body>
+    <header>
+        <h1>Registrar Jogo</h1>
+    </header>
+
+    <br>
+
+    <form id="formJogo">
+        <label>Grupo:
+            <select id="grupo">
+                <option value="A">Grupo A</option>
+                <option value="B">Grupo B</option>
+                <option value="C">Grupo C</option>
+            </select>
+        </label>
+        <label>Equipe 1:
+            <select id="equipe1"></select>
+        </label>
+        <label>Equipe 2:
+            <select id="equipe2"></select>
+        </label>
+
+        <h3>Sets</h3>
+        <div class="sets">
+            <label>Set 1: <input type="number" id="s1e1" min="0"> x <input type="number" id="s1e2" min="0"></label>
+            <label>Set 2: <input type="number" id="s2e1" min="0"> x <input type="number" id="s2e2" min="0"></label>
+            <label>Set 3: <input type="number" id="s3e1" min="0"> x <input type="number" id="s3e2" min="0"></label>
+        </div>
+
+        <button type="submit">📥 Salvar Jogo</button>
+    </form>
+
+    <h2>Jogos Registrados</h2>
+    <ul id="listaJogos"></ul>
+
+
+    <h3>
+        <a href="Tabela.html">
+            <button type="reset">
+                ↩️ Voltar para Classificação
+            </button>
+        </a>
+    </h3>
+
+    <script src="script.js"></script>
+
+    <footer>
+        BOPE - Belo Oriente Peteca Esporte<br>
+    </footer>
+</body>
+
+</html>
