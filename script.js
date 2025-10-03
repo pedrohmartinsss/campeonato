@@ -1,6 +1,6 @@
 const grupos = {
     A: ["Fabricio Geraldo dos Santos/Charles Godoi", "Alef Jonas Fortunato Costa/Bruno Soares Bifano",
-        "Pedro Henrique Martins Rodrigues Diniz/ Gabriel Fernando Oliveira Sá", "Eduardo Aparecido Moreira Coura/Laércio de Oliveira Schneider"],
+        "Pedro Henrique Martins Rodrigues Diniz/ Gabriel Fernando Oliveira Sá"],
     B: ["Nílton Gonçalves de Souza/Weberson Correia", "Erick Bruno Mota Lannes/Marcos Douglas da Silva Ferreira",
         "Lucas Alves de Moura/Nain Ávila de Pinho", "Welinton José do Nascimento/Gilberto Fortunato"],
     C: ["Paulo Otávio Assis Andrade/Romero de Souza Fortunato", "Renato Lima Coura Junior/Fernando Martins Hermógenes",
